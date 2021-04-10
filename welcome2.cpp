@@ -122,7 +122,7 @@ void input_display() {
       clear_lines();
       mvprintw(47, 20, line.c_str());
       move(47, 20 + --col);
-    } else if (ch == KEY_F(1)) {
+    } else if (ch == KEY_F(2)) {
         int x, y;
         getyx(stdscr, y, x);
         menu_call();
